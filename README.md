@@ -1,56 +1,38 @@
 # House-Price-Prediction
 In this problem of Machine Learning, we have to predict the price of the house in order to sale or something like that.I have used the dataset contains house sale prices for King County, which includes Seattle,USA
-# Kaggle-projects
+
 ## TOXIC COMMENT CLASSIFICATION
 
-> It is built in Python3 
+> It is built in Python2 using Graphlab Library (Turi) 
 
 ###**ABOUT FILES**
 
->Toxic comment classification problem.py (main python file)
+>House_price.ipynb (main python file using multivariate regression)
 
->submissions.csv (final submission file(using count vectorizer))
+>House_price_ridge.ipynb (main python file using ridge regression involving l2_penalty for penalizing the coefficients )
 
->submissions_tfidf.csv (final submission file(using tfidf vectorizer))
+###**DATASET FILES**
 
-###**DATASET FILES(kaggle)**
+>Graplab File
 
->train.csv
- 
->test.csv
-
->samplesubmissions.csv
-
-###**DATA WRANGLING**
-
->Lowercasing all the comments
-
->Removing String Punctuation(eg- !,$,%)
-
->Removing new line character, return carriage character('\n','\r')
+>kc_house_data.gl
 
 ###**DATA ANALYSIS**
 
->Length of all training points
+>Number of all training points
 
->Calculating mean, max , standard length of training dataset
+>Checking the features.
 
 >Ploting using library matplotlib
 
 ###**STATISTICAL MODEL**
 
- ####**Features Extraction**
- 
-       > Count Vectorizer- count the occurence of word in the comment(returns numpy array)
-       
-                                    **OR**
-                                    
-       > Tfidf Vectorizer- It return the frequency of that word(importance of that word)
-       
+
  ####**MODEL USED**
  
-      > One Vs Rest Classifier for multilabel classification problem which is using SGDC(Stochastic Gradient Descent Classifier)
+    > Linear Regression using mutlivariable.
+    
+    > Ridge Regression
       
       
 
-> Toxic Comment Classification kaggle Score -> 69.29
