@@ -1,7 +1,6 @@
 # House-Price-Prediction
 In this problem of Machine Learning, we have to predict the price of the house in order to sale or something like that.I have used the dataset contains house sale prices for King County, which includes Seattle,USA
 
-## TOXIC COMMENT CLASSIFICATION
 
 > It is built in Python2 using Graphlab Library (Turi) 
 
